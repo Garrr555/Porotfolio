@@ -5,7 +5,7 @@ import shoppe from "./clients/shoppeg.png";
 
 const Client = () => {
   return (
-    <section id="clients" className="pt-36 pb-32 bg-slate-800">
+    <section id="clients" className="pt-36 pb-32 bg-slate-800 dark:bg-slate-700">
       <div className="container">
         <div className="w-full px-4">
           <div className=" mx-auto text-center mb-16">
@@ -13,7 +13,7 @@ const Client = () => {
             <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
               Yang Pernah Bekerjasama
             </h2>
-            <p className="font-medium text-md text-secondary md:text-lg">
+            <p className="font-medium text-md text-secondary dark:text-slate-300 md:text-lg">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Accusantium, reiciendis voluptates? Sapiente?
             </p>

@@ -2,18 +2,18 @@ import tegar from "../img/IMG_1139_resize-removebg-preview.png";
 
 const Hero = () => {
   return (
-    <section id="home" className=" pt-36 ">
+    <section id="home" className=" pt-36 dark:bg-dark">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2 ">
             <h1 className="text-base font-semibold text-primary md:text-xl lg:text-2xl">
               Halo Semua✌️, saya
-              <span className="block font-bold text-dark text-4xl mt-1">
+              <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white">
                 Mohammad Tegar Ibrahim
               </span>
             </h1>
             <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl ">
-              Mahasiswa & <span className="text-dark">Frontend Developer</span>
+              Mahasiswa & <span className="text-dark dark:text-slate-300">Frontend Developer</span>
             </h2>
             <p className="font-medium text-secondary mb-10 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
@@ -33,9 +33,9 @@ const Hero = () => {
               <img
                 src={tegar}
                 alt="Mohammad Tegar Ibrahim"
-                className="max-w-full mx-auto px-2"
+                className="max-w-full mx-auto px-2 relative z-10"
               />
-              <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+              <span className="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
                 <svg
                   width="400"
                   height="400"

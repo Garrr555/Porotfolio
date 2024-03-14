@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/about";
+import Back from "./components/back";
 import Blog from "./components/blog";
 import Client from "./components/client";
 import Contact from "./components/contact";
@@ -9,9 +10,29 @@ import Nav from "./components/navbar";
 import Portofolio from "./components/portofolio";
 
 function App() {
+
+  //Navbar Efek
+  const handleScroll = () => {
+    const nav = document.querySelector("nav");
+    const fixedNav = nav.offsetTop;
+    const back = document.querySelector('#back');
+
+    if (window.pageYOffset > fixedNav) {
+      nav.classList.add("navbar-fixed");
+      back.classList.remove("hidden")
+      back.classList.add("flex");
+    } else {
+      nav.classList.remove("navbar-fixed");
+      back.classList.remove("flex");
+      back.classList.add("hidden");
+    }
+  };
+
+  window.onscroll = handleScroll
+
   return (
     <div className="">
-      <Nav />
+      <Nav handleScroll={handleScroll}/>
       <Hero />
       <About />
       <Portofolio />
@@ -19,6 +40,7 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
+      <Back handleScroll={handleScroll}/>
     </div>
   );
 }

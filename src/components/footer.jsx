@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-dark pt-24 pb-12">
+    <footer className="bg-dark pt-24 pb-12 dark:bg-slate-950">
       <div className="container">
         <div className="flex flex-wrap ">
           <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
@@ -115,7 +115,7 @@ const Footer = () => {
             <a
               href="https://instagram.com/moh_garrr"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-white hover:bg-gradient-to-tr hover:from-[#FEDA77] hover:via-[#F58529] hover:to-[#DD2A7B] hover:text-white transition-all duration-300"
               rel="noreferrer"
             >
               <svg
@@ -134,7 +134,7 @@ const Footer = () => {
             <a
               href="https://wa.me/6281229148974"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-white hover:bg-gradient-to-tr hover:from-[#075E54] hover:to-[#25D366] hover:text-white transition-all duration-300"
               rel="noreferrer"
             >
               <svg
@@ -153,7 +153,7 @@ const Footer = () => {
             <a
               href="https://t.me/MohGarrr"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-white hover:bg-[#0088CC] hover:text-white transition-all duration-300"
               rel="noreferrer"
             >
               <svg
@@ -172,7 +172,7 @@ const Footer = () => {
             <a
               href="https://github.com/Garrr555?tab=repositories"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-white hover:bg-white hover:text-black transition-all duration-300"
               rel="noreferrer"
             >
               <svg
@@ -191,7 +191,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/mohammad-tegar-ibrahim-3210b1285/"
               target="_blank"
-              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+              className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-white hover:bg-[#0E76A8] hover:text-white transition-all duration-300"
               rel="noreferrer"
             >
               <svg
