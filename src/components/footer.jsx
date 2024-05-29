@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="w-full px-4 mb-12 md:w-1/3">
             <h3 className="font-semibold text-xl text-white mb-5">
-              Kategori Tulisan
+              Web yang Dibangun
             </h3>
             <ul className="text-slate-300">
               <li>
@@ -24,7 +24,7 @@ const Footer = () => {
                   href="#"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Programming
+                  Purwokerto Smart Tourism
                 </a>
               </li>
               <li>
@@ -32,7 +32,7 @@ const Footer = () => {
                   href="#"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Keyboard
+                  Sudirman Run 2023
                 </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                   href="#"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Setup
+                  Cafebara
                 </a>
               </li>
               <li>
@@ -48,7 +48,31 @@ const Footer = () => {
                   href="#"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Mouse
+                  Business
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  M-Store
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Duwit
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Furniture Pedia
                 </a>
               </li>
             </ul>
@@ -86,25 +110,10 @@ const Footer = () => {
                   href="#clients"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Clients
+                  Skills
                 </a>
               </li>
-              <li>
-                <a
-                  href="#blog"
-                  className="inline-block text-base hover:text-primary mb-3"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="inline-block text-base hover:text-primary mb-3"
-                >
-                  Contact
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>

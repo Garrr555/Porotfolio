@@ -8,7 +8,7 @@ const About = () => {
               Tentang Saya
             </h4>
             <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">
-              Kuy, mabar Mobile Legend dan Valorant!
+              Come on, Level UP!
             </h2>
             <p className="font-medium text-base text-secondary text-justify max-w-xl lg:text-lg">
               Saya seorang mahasiswa informatika Institut Teknologi Telkom
@@ -16,7 +16,7 @@ const About = () => {
               yang tinggi. Saya suka mempelajari hal-hal baru melalui bootcamp
               online. Saya sering mengerjakan proyek-proyek selama kuliah,
               misalnya untuk ujian tengah semester, tugas akhir semester atau
-              proyek mandiri. Untuk sekarang saya sedang belajar React.Js untuk
+              proyek mandiri. Untuk sekarang saya sedang belajar React.Js dan Next.Js untuk
               menambah ilmu dibidang front-end. karena beberapa hal tersebut
               saya mempunyai kemampuan komunikasi yang baik dan dapat bekerja
               dalam tim maupun individu.
@@ -27,17 +27,16 @@ const About = () => {
               Mari Berteman
             </h3>
             <p className="font-medium text-base text-secondary mb-6 lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              dicta quibusdam rem ipsam corporis, totam aperiam eligendi
-              voluptas!
+              Ini adalah Kontak dan Sosial Media yang dapat digunakan untuk menghubungi saya
             </p>
             <div className="flex items-center">
               {/* IG */}
               <a
                 href="https://instagram.com/moh_garrr"
                 target="_blank"
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
                 rel="noreferrer"
+                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
+                
               >
                 <svg
                   className="fill-current"

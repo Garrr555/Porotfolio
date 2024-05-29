@@ -16,12 +16,11 @@ const Hero = () => {
               Mahasiswa & <span className="text-dark dark:text-slate-300">Frontend Developer</span>
             </h2>
             <p className="font-medium text-secondary mb-10 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              consectetur totam eos.
+            Saya seorang mahasiswa informatika Institut Teknologi Telkom Purwokerto (ITTP) yang senang belajar dan memiliki rasa ingin tahu yang tinggi.
             </p>
 
             <a
-              href="#"
+              href="#about"
               className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition-all duration-300 ease-in-out"
             >
               Hubungi Saya

@@ -3,6 +3,8 @@ import empat from "../img/4.jpeg";
 import tiga from "../img/3.jpeg";
 import dua from "../img/2.jpeg";
 import satu from "../img/1.jpeg";
+import enam from "../img/6.png";
+import tujuh from "../img/7.png";
 
 const Portofolio = () => {
   return (
@@ -20,9 +22,7 @@ const Portofolio = () => {
               Project Terbaru
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              molestiae omnis laboriosam, corrupti et delectus placeat quisquam
-              tempora! Adipisci, est!
+              Ini merupakan kumpulan Project Web yang telah saya kerjakan selama menempuh karir sebagai Front-end Developer
             </p>
           </div>
         </div>
@@ -40,13 +40,10 @@ const Portofolio = () => {
               </div>
             </div>
 
-            <h3 className="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Purwokerto Smart Tourism
             </h3>
-            <p className="font-medium text-base text-secondary">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo a commodi veniam.
-            </p>
+            
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -60,13 +57,10 @@ const Portofolio = () => {
               </div>
             </div>
 
-            <h3 className="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Sudirman Run 2023
             </h3>
-            <p className="font-medium text-base text-secondary">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo a commodi veniam.
-            </p>
+           
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -80,13 +74,10 @@ const Portofolio = () => {
               </div>
             </div>
 
-            <h3 className="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Cafebara
             </h3>
-            <p className="font-medium text-base text-secondary">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo a commodi veniam.
-            </p>
+           
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -100,13 +91,10 @@ const Portofolio = () => {
               </div>
             </div>
 
-            <h3 className="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Business
             </h3>
-            <p className="font-medium text-base text-secondary">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo a commodi veniam.
-            </p>
+           
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -120,13 +108,55 @@ const Portofolio = () => {
               </div>
             </div>
 
-            <h3 className="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               M-Store
             </h3>
-            <p className="font-medium text-base text-secondary">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo a commodi veniam.
-            </p>
+           
+          </div>
+          <div className="mb-12 p-4 md:w-1/2 ">
+            <div className="group">
+              <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
+              <a href="https://web-duwit-peaces-projects-2cad2b96.vercel.app/"
+                target="_blank"
+                rel="noreferrer">
+                  <img
+                  src={enam}
+                  alt="E-commerce"
+                  width="w-full"
+                  className="group-hover:scale-125 transition duration-500 "
+                />
+                </a>
+              </div>
+            </div>
+
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
+              Duwit
+            </h3>
+            <h4 className="text-primary text-center">Click for Perview</h4>
+           
+          </div>
+          <div className="mb-12 p-4 md:w-1/2 ">
+            <div className="group">
+              <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
+                <a href="https://mini-project-topaz-ten.vercel.app/"
+                target="_blank"
+                rel="noreferrer">
+                  <img
+                  src={tujuh}
+                  alt="E-commerce"
+                  width="w-full"
+                  className="group-hover:scale-125 transition duration-500 "
+                />
+                </a>
+                
+              </div>
+            </div>
+
+            <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
+              Furniture Pedia
+            </h3>
+            <h4 className="text-primary text-center">Click for Perview</h4>
+           
           </div>
         </div>
       </div>

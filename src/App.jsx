@@ -1,9 +1,7 @@
 import "./App.css";
 import About from "./components/about";
 import Back from "./components/back";
-import Blog from "./components/blog";
 import Client from "./components/client";
-import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Nav from "./components/navbar";
@@ -37,8 +35,8 @@ function App() {
       <About />
       <Portofolio />
       <Client />
-      <Blog />
-      <Contact />
+      {/* <Blog /> */}
+      {/* <Contact /> */}
       <Footer />
       <Back handleScroll={handleScroll}/>
     </div>

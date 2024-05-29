@@ -1,7 +1,7 @@
-import google from "./clients/googleg.png";
-import gojek from "./clients/gojek.png";
-import tokopedia from "./clients/tokopedia.png";
-import shoppe from "./clients/shoppeg.png";
+
+import react from "./clients/react-seeklogo.svg";
+import next from "./clients/next-js-seeklogo.svg";
+import tailwind from "./clients/tailwind-css-wordmark-seeklogo.svg";
 
 const Client = () => {
   return (
@@ -9,13 +9,12 @@ const Client = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className=" mx-auto text-center mb-16">
-            <h4 className="font-semibold text-lg text-primary mb-2">Clients</h4>
+            <h4 className="font-semibold text-lg text-primary mb-2">Skills</h4>
             <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
-              Yang Pernah Bekerjasama
+              Skills yang dikuasai
             </h2>
             <p className="font-medium text-md text-secondary dark:text-slate-300 md:text-lg">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusantium, reiciendis voluptates? Sapiente?
+             Ini adalah beberapa skill yang telas saya kuasai sebagai penunjang dalam karir Front-end Developer
             </p>
           </div>
         </div>
@@ -26,26 +25,21 @@ const Client = () => {
               href="#clients"
               className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
-              <img src={google} alt="google" />
+              <img src={react} alt="google" />
             </a>
             <a
               href="#clients"
               className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
-              <img src={gojek} alt="gojek" />
+              <img src={next} alt="gojek" />
             </a>
             <a
               href="#clients"
               className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
-              <img src={tokopedia} alt="tokopedia" />
+              <img src={tailwind} alt="tokopedia" />
             </a>
-            <a
-              href="#clients"
-              className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
-            >
-              <img src={shoppe} alt="shoppe" />
-            </a>
+            
           </div>
         </div>
       </div>
