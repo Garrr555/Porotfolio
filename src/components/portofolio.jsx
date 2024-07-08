@@ -3,8 +3,9 @@ import empat from "../img/4.jpeg";
 import tiga from "../img/3.jpeg";
 import dua from "../img/2.jpeg";
 import satu from "../img/1.jpeg";
-import enam from "../img/6.png";
-import tujuh from "../img/7.png";
+import enam from "../img/6,1.png";
+import tujuh from "../img/7,1.png";
+import delapan from "../img/8.png";
 
 const Portofolio = () => {
   return (
@@ -22,13 +23,14 @@ const Portofolio = () => {
               Project Terbaru
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Ini merupakan kumpulan Project Web yang telah saya kerjakan selama menempuh karir sebagai Front-end Developer
+              Ini merupakan kumpulan Project Web yang telah saya kerjakan selama
+              menempuh karir sebagai Front-end Developer
             </p>
           </div>
         </div>
 
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-          <div className="mb-12 p-4  md:w-1/2 ">
+          <div id="tourism" className="mb-12 p-4  md:w-1/2 ">
             <div className="group">
               <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
                 <img
@@ -43,7 +45,6 @@ const Portofolio = () => {
             <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Purwokerto Smart Tourism
             </h3>
-            
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -60,9 +61,8 @@ const Portofolio = () => {
             <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Sudirman Run 2023
             </h3>
-           
           </div>
-          <div className="mb-12 p-4 md:w-1/2 ">
+          <div id="cafebara" className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
               <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
                 <img
@@ -77,7 +77,6 @@ const Portofolio = () => {
             <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Cafebara
             </h3>
-           
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
@@ -94,9 +93,8 @@ const Portofolio = () => {
             <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               Business
             </h3>
-           
           </div>
-          <div className="mb-12 p-4 md:w-1/2 ">
+          <div id="mstore" className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
               <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
                 <img
@@ -111,52 +109,92 @@ const Portofolio = () => {
             <h3 className="text-center font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">
               M-Store
             </h3>
-           
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
               <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
-              <a href="https://web-duwit-peaces-projects-2cad2b96.vercel.app/"
-                target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://web-duwit-peaces-projects-2cad2b96.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
-                  src={enam}
-                  alt="E-commerce"
-                  width="w-full"
-                  className="group-hover:scale-125 transition duration-500 "
-                />
+                    src={enam}
+                    alt="E-commerce"
+                    width="w-full"
+                    className="group-hover:scale-125 transition duration-500 "
+                  />
                 </a>
               </div>
             </div>
 
-            <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
-              Duwit
-            </h3>
-            <h4 className="text-primary text-center">Click for Perview</h4>
-           
+            <a
+              href="https://web-duwit-peaces-projects-2cad2b96.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
+                Duwit
+              </h3>
+              <h4 className="text-primary text-center">Click for Perview</h4>
+            </a>
           </div>
           <div className="mb-12 p-4 md:w-1/2 ">
             <div className="group">
               <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
-                <a href="https://mini-project-topaz-ten.vercel.app/"
-                target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://mini-project-topaz-ten.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
-                  src={tujuh}
-                  alt="E-commerce"
-                  width="w-full"
-                  className="group-hover:scale-125 transition duration-500 "
-                />
+                    src={tujuh}
+                    alt="E-commerce"
+                    width="w-full"
+                    className="group-hover:scale-125 transition duration-500 "
+                  />
                 </a>
-                
               </div>
             </div>
 
-            <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
-              Furniture Pedia
-            </h3>
-            <h4 className="text-primary text-center">Click for Perview</h4>
-           
+            <a
+              href="https://mini-project-topaz-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
+                Furniturpedia
+              </h3>
+              <h4 className="text-primary text-center">Click for Perview</h4>
+            </a>
+          </div>
+          <div className="mb-12 p-4 md:w-1/2 ">
+            <div className="group">
+              <div className="rounded shadow-md dark:shadow-md dark:shadow-slate-500 overflow-hidden group-hover:scale-95 transition duration-500 hover:border-2 group-hover:border-primary">
+                <a
+                  href="https://plantopia-eta.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={delapan}
+                    alt="E-commerce"
+                    width="w-full"
+                    className="group-hover:scale-125 transition duration-500 "
+                  />
+                </a>
+              </div>
+            </div>
+            <a
+              href="https://plantopia-eta.vercel.app/login/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="text-center font-semibold text-dark text-xl mt-5 dark:text-white">
+                Plantopia
+              </h3>
+              <h4 className="text-primary text-center">Click there for Login</h4>
+            </a>
           </div>
         </div>
       </div>

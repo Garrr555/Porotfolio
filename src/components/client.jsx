@@ -11,7 +11,7 @@ const Client = () => {
           <div className=" mx-auto text-center mb-16">
             <h4 className="font-semibold text-lg text-primary mb-2">Skills</h4>
             <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
-              Skills yang dikuasai
+              Skill yang dikuasai
             </h2>
             <p className="font-medium text-md text-secondary dark:text-slate-300 md:text-lg">
              Ini adalah beberapa skill yang telas saya kuasai sebagai penunjang dalam karir Front-end Developer

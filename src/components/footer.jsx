@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="text-slate-300">
               <li>
                 <a
-                  href="#"
+                  href="#portofolio"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   Purwokerto Smart Tourism
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#portofolio"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   Sudirman Run 2023
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#tourism"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   Cafebara
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#tourism"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   Business
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#cafebara"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   M-Store
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#cafebara"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
                   Duwit
@@ -69,10 +69,18 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#mstore"
                   className="inline-block text-base hover:text-primary mb-3"
                 >
-                  Furniture Pedia
+                  Furniturpedia
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#mstore"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Plantopia
                 </a>
               </li>
             </ul>
@@ -113,7 +121,6 @@ const Footer = () => {
                   Skills
                 </a>
               </li>
-              
             </ul>
           </div>
         </div>
